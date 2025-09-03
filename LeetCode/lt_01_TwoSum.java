@@ -2,6 +2,9 @@ package LeetCode;
 
 import java.util.HashMap;
 
+// 題目：Two Sum
+// 給定一個整數陣列 nums 和一個目標值 target，請回傳兩個索引，使得 nums[i] + nums[j] == target。
+
 public class lt_01_TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         // 使用 HashMap 來儲存「數值 -> 索引」
